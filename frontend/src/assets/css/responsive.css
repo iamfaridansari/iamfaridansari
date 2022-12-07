@@ -1,0 +1,9 @@
+@media screen and (max-width: 576px) {
+  .navbar1 {
+    height: 45px;
+    overflow: hidden;
+  }
+  .navbar1.active {
+    height: 110px;
+  }
+}
