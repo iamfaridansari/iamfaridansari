@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/iamfaridansari/static/css/main.47781d3b.css",
+    "main.js": "/iamfaridansari/static/js/main.aa2c562f.js",
+    "static/media/profile_pic.jpg": "/iamfaridansari/static/media/profile_pic.6e6e5e4ac8c22febceb9.jpg",
+    "static/media/Lexend.ttf": "/iamfaridansari/static/media/Lexend.a08fb5d2aaa5f5622c53.ttf",
+    "index.html": "/iamfaridansari/index.html",
+    "main.47781d3b.css.map": "/iamfaridansari/static/css/main.47781d3b.css.map",
+    "main.aa2c562f.js.map": "/iamfaridansari/static/js/main.aa2c562f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47781d3b.css",
+    "static/js/main.aa2c562f.js"
+  ]
+}
