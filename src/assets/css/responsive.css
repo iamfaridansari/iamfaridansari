@@ -1,0 +1,63 @@
+@media screen and (max-width: 768px) {
+  .introduction {
+    align-items: end;
+    gap: 10px;
+  }
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 576px) {
+  aside {
+    width: 75px;
+  }
+  aside .link-name {
+    font-size: 10px;
+  }
+  aside ul {
+    gap: 30px;
+  }
+  aside ul li {
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+  }
+  aside ul li a svg {
+    font-size: 1.5rem;
+  }
+  .theme-toggle {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 440px) {
+  .introduction {
+    grid-template-columns: 1fr;
+  }
+  .profile_pic {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  p,
+  a,
+  ul,
+  li,
+  input,
+  button,
+  textarea,
+  select,
+  option {
+    font-size: 0.9rem;
+  }
+}
+
+/*  */
+@media screen and (max-height: 350px) {
+  aside ul li a svg,
+  .theme-toggle svg {
+    font-size: 1rem;
+  }
+  aside ul {
+    gap: 10px;
+  }
+}
