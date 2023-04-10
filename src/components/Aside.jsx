@@ -15,6 +15,7 @@ const Aside = () => {
   let heading1 = document.querySelectorAll("main h1");
   let heading2 = document.querySelectorAll("main h2");
   let paragraph = document.querySelectorAll("main p");
+  let arrows = document.querySelectorAll(".invert");
   const toggleTheme = () => {
     setTheme(!theme);
   };
@@ -30,6 +31,9 @@ const Aside = () => {
       paragraph.forEach((item) => {
         item.style.color = "#eee";
       });
+      arrows.forEach((item)=> {
+        item.style.filter = "invert(1)" 
+      })
     } else {
       document.body.style.background = "#eee";
       heading1.forEach((item) => {
@@ -41,6 +45,9 @@ const Aside = () => {
       paragraph.forEach((item) => {
         item.style.color = "#000";
       });
+      arrows.forEach((item)=> {
+        item.style.filter = "none" 
+      })
     }
   }, [theme]);
 

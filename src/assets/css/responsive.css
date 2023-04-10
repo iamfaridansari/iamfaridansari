@@ -1,3 +1,27 @@
+@media screen and (max-width: 992px) {
+  .path1,
+  .path2 {
+    grid-column: 2/6;
+  }
+  .path1 {
+    grid-row: 2/3;
+  }
+  .path2 {
+    grid-row: 4/5;
+  }
+  .path1 img {
+    transform: rotate(20deg) translateX(-50px);
+  }
+  .step2 {
+    grid-column: 5/6;
+    grid-row: 3/4;
+  }
+  .step3 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .introduction {
     align-items: end;
@@ -5,6 +29,41 @@
   }
   .projects {
     grid-template-columns: 1fr;
+  }
+  .route-grid {
+    grid-auto-rows: 150px;
+  }
+  .step1 {
+    grid-column: 1/4;
+  }
+  .path1 {
+    grid-column: 2/5;
+  }
+  .path1 img {
+    transform: rotate(20deg) translateX(0);
+  }
+  .step2 {
+    grid-column: 4/7;
+  }
+  .path2 {
+    grid-column: 2/5;
+  }
+  .step3 {
+    grid-column: 1/4;
+  }
+  .companylogo {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 666px) {
+  .path1,
+  .path2 {
+    grid-column: 2/6;
+  }
+  .step1,
+  .step2,
+  .step3 {
+    grid-column: 1/7;
   }
 }
 @media screen and (max-width: 576px) {
@@ -28,6 +87,12 @@
   .theme-toggle {
     margin: 0 auto;
   }
+  .path1 img {
+    transform: rotate(46deg) translateX(0);
+  }
+  .path2 img {
+    transform: rotateY(180deg) rotateZ(49deg);
+  }
 }
 @media screen and (max-width: 440px) {
   .introduction {
@@ -48,6 +113,9 @@
   select,
   option {
     font-size: 0.9rem;
+  }
+  .route-grid {
+    grid-auto-rows: 125px;
   }
 }
 

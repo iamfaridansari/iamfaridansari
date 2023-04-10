@@ -166,7 +166,12 @@ const Introduction = () => {
           </h2>
           <p className="d-md-block d-none" ref={addDesc}>
             One year and seven month of experience in developing user interface,
-            frontend of web applications and websites.
+            frontend of web applications and websites. <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            ratione saepe totam, sequi officia quibusdam delectus nemo voluptas
+            aliquid, at asperiores debitis atque ea. Recusandae dignissimos
+            laudantium nam sequi quaerat!
           </p>
         </div>
         <div className="profile_pic ms-auto">
@@ -175,7 +180,12 @@ const Introduction = () => {
       </div>
       <p className="d-md-none mt-4" ref={addDesc}>
         One year and seven month of experience in developing user interface,
-        frontend of web applications and websites.
+        frontend of web applications and websites. <br />
+        <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+        ratione saepe totam, sequi officia quibusdam delectus nemo voluptas
+        aliquid, at asperiores debitis atque ea. Recusandae dignissimos
+        laudantium nam sequi quaerat!
       </p>
     </>
   );

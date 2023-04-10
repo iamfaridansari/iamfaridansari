@@ -165,3 +165,50 @@ main {
 .project svg {
   color: #fff !important;
 }
+.route-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-content: space-between;
+}
+.route-grid img {
+  height: 100%;
+}
+.route-grid p {
+  text-transform: capitalize;
+}
+.companylogo {
+  width: 200px;
+  display: block;
+}
+.companylogo img {
+  height: 100%;
+}
+.path1 {
+  grid-column: 2/4;
+}
+.path2 {
+  grid-column: 3/5;
+  grid-row: 3/4;
+}
+.path2 img {
+  transform: rotateY(180deg) rotateZ(10deg);
+}
+.step1 {
+  grid-column: 1/2;
+}
+.step2 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  text-align: right;
+}
+.step2 .companylogo {
+  margin-left: auto;
+}
+.step3 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+.dropshadow {
+  filter: drop-shadow(1px 10px 10px black);
+}

@@ -46,15 +46,9 @@ export const experience = [
     end: "May 2022",
   },
   {
-    company_name: "Interlink consultant",
-    designation: "ReactJS developer",
-    start: "June 2022",
-    end: "Oct 2022",
-  },
-  {
     company_name: "McBird technologies",
     designation: "Software engineer",
-    start: "Nov 2022",
+    start: "June 2022",
     end: "Present",
   },
 ];
@@ -76,19 +70,19 @@ export const education = [
   {
     institution_name: "St Ignatius' high school",
     board: "Maharashtra state board",
-    passing_year: "Mar 2015",
+    passing_year: "March 2015",
     result: "74.80%",
   },
   {
     institution_name: "M.H. Saboo siddik college",
     board: "Maharashtra state board",
-    passing_year: "Mar 2017",
+    passing_year: "March 2017",
     result: "62.15%",
   },
   {
     institution_name: "Lala Lajpat Rai college",
     board: "Mumbai University",
-    passing_year: "Mar 2021",
+    passing_year: "March 2021",
     result: "7.97 CGPA",
   },
 ];
