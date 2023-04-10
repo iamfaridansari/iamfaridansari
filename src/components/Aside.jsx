@@ -16,6 +16,7 @@ const Aside = () => {
   let heading2 = document.querySelectorAll("main h2");
   let paragraph = document.querySelectorAll("main p");
   let arrows = document.querySelectorAll(".invert");
+  let skills = document.querySelectorAll(".skills svg");
   const toggleTheme = () => {
     setTheme(!theme);
   };
@@ -31,9 +32,12 @@ const Aside = () => {
       paragraph.forEach((item) => {
         item.style.color = "#eee";
       });
-      arrows.forEach((item)=> {
-        item.style.filter = "invert(1)" 
-      })
+      arrows.forEach((item) => {
+        item.style.filter = "invert(1)";
+      });
+      skills.forEach((item) => {
+        item.style.color = "#fff";
+      });
     } else {
       document.body.style.background = "#eee";
       heading1.forEach((item) => {
@@ -45,9 +49,12 @@ const Aside = () => {
       paragraph.forEach((item) => {
         item.style.color = "#000";
       });
-      arrows.forEach((item)=> {
-        item.style.filter = "none" 
-      })
+      arrows.forEach((item) => {
+        item.style.filter = "none";
+      });
+      skills.forEach((item) => {
+        item.style.color = "#000";
+      });
     }
   }, [theme]);
 

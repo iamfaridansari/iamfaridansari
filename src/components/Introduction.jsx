@@ -165,7 +165,7 @@ const Introduction = () => {
             })}
           </h2>
           <p className="d-md-block d-none" ref={addDesc}>
-            One year and seven month of experience in developing user interface,
+            Nearly two years of experience in developing user interface,
             frontend of web applications and websites. <br />
             <br />
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
