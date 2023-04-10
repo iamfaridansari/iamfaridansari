@@ -127,9 +127,9 @@ const Aside = () => {
           </a>
         </li>
       </ul>
-      <div className="theme-toggle" onClick={toggleTheme} ref={addLinks}>
+      {/* <div className="theme-toggle" onClick={toggleTheme} ref={addLinks}>
         {theme ? <FaSun /> : <FaMoon />}
-      </div>
+      </div> */}
     </aside>
   );
 };

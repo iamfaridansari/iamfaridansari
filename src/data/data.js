@@ -89,31 +89,43 @@ export const education = [
 
 export const projects = [
   {
-    project_name: "Farid's closet",
-    link: "https://faridscloset.netlify.app/",
+    project_name: "The Night suit co",
+    link: "https://iamfaridansari.github.io/thenightsuitco/",
   },
   {
-    project_name: "Al minar",
-    link: "https://alminar.netlify.app/",
+    project_name: "Multistep form",
+    link: "https://iamfaridansari.github.io/multistepform/",
   },
   {
     project_name: "World flag quiz",
-    link: "https://worldflagquiz.netlify.app/",
-  },
-  {
-    project_name: "Sayba group",
-    link: "https://saybagroup.netlify.app/",
-  },
-  {
-    project_name: "Multi step form",
-    link: "https://diversiform.netlify.app/",
-  },
-  {
-    project_name: "Evan LLC",
-    link: "https://evanllc.netlify.app/",
+    link: "https://iamfaridansari.github.io/worldflagquiz/",
   },
   {
     project_name: "Delhi darbar",
-    link: "https://delhidarbar.netlify.app/",
+    link: "https://iamfaridansari.github.io/delhidarbar/",
+  },
+  {
+    project_name: "Farid's closet",
+    link: "https://iamfaridansari.github.io/faridscloset/",
+  },
+  {
+    project_name: "Sayba group",
+    link: "https://iamfaridansari.github.io/saybagroup/",
+  },
+  {
+    project_name: "Evan LLC",
+    link: "https://evan-llc.com/",
+  },
+  {
+    project_name: "FTV Beauty Store",
+    link: "http://ftvbeautystore.in/",
+  },
+  {
+    project_name: "FTV Party",
+    link: "https://ftvparty.in/",
+  },
+  {
+    project_name: "FTV Energy drinks",
+    link: "https://ftvenergydrinks.in/",
   },
 ];

@@ -164,29 +164,39 @@ const Introduction = () => {
               );
             })}
           </h2>
-          <p className="d-md-block d-none" ref={addDesc}>
-            Nearly two years of experience in developing user interface,
-            frontend of web applications and websites. <br />
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            ratione saepe totam, sequi officia quibusdam delectus nemo voluptas
-            aliquid, at asperiores debitis atque ea. Recusandae dignissimos
-            laudantium nam sequi quaerat!
-          </p>
+          <div className="d-md-block d-none" ref={addDesc}>
+            <p className="mb-4">
+              Nearly two years of experience in developing user interface,
+              frontend of web applications and websites. <br />
+              <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              ratione saepe totam, sequi officia quibusdam delectus nemo
+              voluptas aliquid, at asperiores debitis atque ea. Recusandae
+              dignissimos laudantium nam sequi quaerat!
+            </p>
+            <a href="" className="button" download="Farid Ansari Resume">
+              Download resume
+            </a>
+          </div>
         </div>
         <div className="profile_pic ms-auto">
           <img src={profile_pic} ref={profilePic} alt="profile pic" />
         </div>
       </div>
-      <p className="d-md-none mt-4" ref={addDesc}>
-        One year and seven month of experience in developing user interface,
-        frontend of web applications and websites. <br />
-        <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-        ratione saepe totam, sequi officia quibusdam delectus nemo voluptas
-        aliquid, at asperiores debitis atque ea. Recusandae dignissimos
-        laudantium nam sequi quaerat!
-      </p>
+      <div className="d-md-none mt-4" ref={addDesc}>
+        <p className="mb-4">
+          One year and seven month of experience in developing user interface,
+          frontend of web applications and websites. <br />
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+          ratione saepe totam, sequi officia quibusdam delectus nemo voluptas
+          aliquid, at asperiores debitis atque ea. Recusandae dignissimos
+          laudantium nam sequi quaerat!
+        </p>
+        <a href="" className="button" download="Farid Ansari Resume">
+          Download resume
+        </a>
+      </div>
     </>
   );
 };

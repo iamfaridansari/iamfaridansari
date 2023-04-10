@@ -58,6 +58,15 @@ svg {
 a:hover {
   color: unset;
 }
+.button {
+  padding: 10px;
+  background: var(--gradient-background);
+  border-radius: 5px;
+  color: #fff;
+}
+.button:hover {
+  color: #fff;
+}
 .body {
   width: 100%;
   height: auto;
@@ -208,11 +217,86 @@ main {
   grid-template-columns: repeat(5, 1fr);
   grid-auto-rows: 1fr;
   text-align: center;
-  row-gap: 20px;
+  row-gap: 40px;
 }
 .skills svg {
   font-size: 3rem;
 }
-.node svg {
-  font-size: 4rem;
+.skills > div {
+  position: relative;
+  transition: var(--transition);
+}
+.skills > div::before {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  color: #000;
+  transition: var(--transition);
+  text-transform: capitalize;
+  opacity: 0;
+}
+.html::before {
+  content: "HTML";
+}
+.css::before {
+  content: "CSS";
+}
+.sass::before {
+  content: "SASS";
+}
+.bootstrap::before {
+  content: "Bootstrap";
+}
+.javascript::before {
+  content: "javaScript";
+}
+.react::before {
+  content: "react JS";
+}
+.node::before {
+  content: "node JS";
+}
+.express::before {
+  content: "express JS";
+}
+.mongodb::before {
+  content: "mongoDB";
+}
+.git::before {
+  content: "git";
+}
+.github::before {
+  content: "github";
+}
+.postman::before {
+  content: "postman";
+}
+.skills > div:hover::before {
+  transform: translate(-50%, 75%);
+  opacity: 1;
+}
+.html:hover,
+.git:hover,
+.postman:hover {
+  color: #e34c26 !important;
+}
+.css:hover {
+  color: #2965f1 !important;
+}
+.sass:hover {
+  color: #cd679a !important;
+}
+.bootstrap:hover {
+  color: #563d7c !important;
+}
+.javascript:hover {
+  color: #f7df1e !important;
+}
+.react:hover {
+  color: #88dded !important;
+}
+.node:hover,
+.mongodb:hover {
+  color: #3c873a !important;
 }
