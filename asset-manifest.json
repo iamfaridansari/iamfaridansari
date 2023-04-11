@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/iamfaridansari/static/css/main.8db388f0.css",
-    "main.js": "/iamfaridansari/static/js/main.77db1dc0.js",
+    "main.js": "/iamfaridansari/static/js/main.af468908.js",
     "static/media/profile_pic.jpg": "/iamfaridansari/static/media/profile_pic.6e6e5e4ac8c22febceb9.jpg",
     "static/media/mcbird.png": "/iamfaridansari/static/media/mcbird.1caf576d455100ac4677.png",
     "static/media/Lexend.ttf": "/iamfaridansari/static/media/Lexend.a08fb5d2aaa5f5622c53.ttf",
     "static/media/lala_lajpat_rai.png": "/iamfaridansari/static/media/lala_lajpat_rai.9b7726bbc3195fa99ad1.png",
     "static/media/fashiontv.png": "/iamfaridansari/static/media/fashiontv.39f0b362d0eaaa70af52.png",
     "static/media/path.png": "/iamfaridansari/static/media/path.c546e9132995f06e22a1.png",
+    "static/media/st_ignatius.png": "/iamfaridansari/static/media/st_ignatius.0dd1c562e35a5a759199.png",
     "static/media/saboo_siddik.png": "/iamfaridansari/static/media/saboo_siddik.623d43be9d210fb3b940.png",
     "index.html": "/iamfaridansari/index.html",
     "main.8db388f0.css.map": "/iamfaridansari/static/css/main.8db388f0.css.map",
-    "main.77db1dc0.js.map": "/iamfaridansari/static/js/main.77db1dc0.js.map"
+    "main.af468908.js.map": "/iamfaridansari/static/js/main.af468908.js.map"
   },
   "entrypoints": [
     "static/css/main.8db388f0.css",
-    "static/js/main.77db1dc0.js"
+    "static/js/main.af468908.js"
   ]
 }
