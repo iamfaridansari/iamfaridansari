@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import profile_pic from "../assets/image/profile_pic.jpg";
 import { designation, hello, iam, name } from "../data/data";
 import gsap from "gsap";
+import Desciption from "./Desciption";
 
 const Introduction = () => {
   //
@@ -165,18 +166,7 @@ const Introduction = () => {
             })}
           </h2>
           <div className="d-md-block d-none" ref={addDesc}>
-            <p className="mb-4">
-              Nearly two years of experience in developing user interface,
-              frontend of web applications and websites. <br />
-              <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              ratione saepe totam, sequi officia quibusdam delectus nemo
-              voluptas aliquid, at asperiores debitis atque ea. Recusandae
-              dignissimos laudantium nam sequi quaerat!
-            </p>
-            <a href="" className="button" download="Farid Ansari Resume">
-              Download resume
-            </a>
+            <Desciption />
           </div>
         </div>
         <div className="profile_pic ms-auto">
@@ -184,18 +174,7 @@ const Introduction = () => {
         </div>
       </div>
       <div className="d-md-none mt-4" ref={addDesc}>
-        <p className="mb-4">
-          One year and seven month of experience in developing user interface,
-          frontend of web applications and websites. <br />
-          <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-          ratione saepe totam, sequi officia quibusdam delectus nemo voluptas
-          aliquid, at asperiores debitis atque ea. Recusandae dignissimos
-          laudantium nam sequi quaerat!
-        </p>
-        <a href="" className="button" download="Farid Ansari Resume">
-          Download resume
-        </a>
+        <Desciption />
       </div>
     </>
   );

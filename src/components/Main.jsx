@@ -9,11 +9,17 @@ import Skills from "./Skills";
 const Main = () => {
   return (
     <main>
-      <Introduction />
-      <Experience />
-      <Skills />
-      <Education />
-      <Projectcs />
+      <div style={{ maxWidth: "1220px", margin: "0 auto" }}>
+        <Introduction />
+        <hr />
+        <Experience />
+        <hr />
+        <Skills />
+        <hr />
+        <Education />
+        <hr />
+        <Projectcs />
+      </div>
       <Footer />
     </main>
   );

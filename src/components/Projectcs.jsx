@@ -36,8 +36,8 @@ const Projectcs = () => {
     });
   }, []);
   return (
-    <div className="mt-5 pad10 mb-4" id="projects">
-      <h2 className="mb-4">Projects</h2>
+    <div className="pad10 mb-4" id="projects">
+      <h1 className="mb-4">Projects</h1>
       <div className="projects">
         {projects.map((item, index) => {
           return (

@@ -5,8 +5,8 @@ import path from "../assets/image/path.png";
 
 const Experience = () => {
   return (
-    <div className="mt-5 pad10" id="experience">
-      <h2 className="mb-4">Experience</h2>
+    <div className="pad10" id="experience">
+      <h1 className="mb-4">Experience</h1>
       <div className="route-grid">
         <div className="step1">
           <a

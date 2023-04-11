@@ -48,8 +48,8 @@ const Skills = () => {
     });
   }, []);
   return (
-    <div className="mt-5 pad10" id="skills">
-      <h2 className="mb-4">Skills</h2>
+    <div className="pad10" id="skills">
+      <h1 className="mb-4">Skills</h1>
       <div className="skills">
         <div className="html dropshadow" ref={addSkills}>
           <FaHtml5 />

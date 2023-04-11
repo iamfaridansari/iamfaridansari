@@ -1,14 +1,13 @@
 import React from "react";
-import { education } from "../data/data";
-import fashiontv from "../assets/image/fashiontv.png";
+import st_ignatius from "../assets/image/st_ignatius.png";
 import saboo_siddik from "../assets/image/saboo_siddik.png";
 import lala_lajpat_rai from "../assets/image/lala_lajpat_rai.png";
 import path from "../assets/image/path.png";
 
 const Education = () => {
   return (
-    <div className="mt-5 pad10" id="education">
-      <h2 className="mb-4">Education</h2>
+    <div className="pad10" id="education">
+      <h1 className="mb-4">Education</h1>
       <div className="route-grid">
         <div className="step1">
           <a
@@ -16,7 +15,7 @@ const Education = () => {
             target="_blank"
             className="companylogo dropshadow"
           >
-            <img src={fashiontv} alt="" />
+            <img src={st_ignatius} alt="" />
           </a>
           <div className="mt-2">
             <p>St Ignatius' high school</p>
