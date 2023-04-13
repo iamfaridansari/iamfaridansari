@@ -5,7 +5,7 @@ import path from "../assets/image/path.png";
 
 const Experience = () => {
   return (
-    <div className="pad10" id="experience">
+    <div className="pad10 mb-5" id="experience">
       <h1 className="mb-4">Experience</h1>
       <div className="route-grid">
         <div className="step1">
@@ -36,7 +36,7 @@ const Experience = () => {
           <div>
             <p>McBird Technologies</p>
             <p className="text-secondary">Software Engineer</p>
-            <p className="text-secondary">June 2022 - April 2023</p>
+            <p className="text-secondary">October 2022 - April 2023</p>
           </div>
         </div>
       </div>

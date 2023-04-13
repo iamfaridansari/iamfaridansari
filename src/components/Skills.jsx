@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useContext, useEffect, useRef } from "react";
 import {
   FaBootstrap,
   FaCss3,
@@ -13,8 +13,10 @@ import {
 import { SiExpress, SiMongodb, SiPostman } from "react-icons/si";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { AppContext } from "../context/AppContext";
 
 const Skills = () => {
+  const { theme } = useContext(AppContext);
   gsap.registerPlugin(ScrollTrigger);
   const skills = useRef([]);
   skills.current = [];
@@ -48,47 +50,93 @@ const Skills = () => {
     });
   }, []);
   return (
-    <div className="pad10" id="skills">
-      <h1 className="mb-4">Skills</h1>
-      <div className="skills">
-        <div className="html dropshadow" ref={addSkills}>
-          <FaHtml5 />
+    <>
+      {theme ? (
+        <div className="pad10 mb-5" id="skills">
+          <h1 className="mb-4">Skills</h1>
+          <div className="skills skills2">
+            <div className="html dropshadow" ref={addSkills}>
+              <FaHtml5 />
+            </div>
+            <div className="css dropshadow" ref={addSkills}>
+              <FaCss3 />
+            </div>
+            <div className="sass dropshadow" ref={addSkills}>
+              <FaSass />
+            </div>
+            <div className="bootstrap dropshadow" ref={addSkills}>
+              <FaBootstrap />
+            </div>
+            <div className="javascript dropshadow" ref={addSkills}>
+              <FaJsSquare />
+            </div>
+            <div className="react dropshadow" ref={addSkills}>
+              <FaReact />
+            </div>
+            <div className="node dropshadow" ref={addSkills}>
+              <FaNode />
+            </div>
+            <div className="express dropshadow" ref={addSkills}>
+              <SiExpress />
+            </div>
+            <div className="mongodb dropshadow" ref={addSkills}>
+              <SiMongodb />
+            </div>
+            <div className="git dropshadow" ref={addSkills}>
+              <FaGitAlt />
+            </div>
+            <div className="github dropshadow" ref={addSkills}>
+              <FaGithub />
+            </div>
+            <div className="postman dropshadow" ref={addSkills}>
+              <SiPostman />
+            </div>
+          </div>
         </div>
-        <div className="css dropshadow" ref={addSkills}>
-          <FaCss3 />
+      ) : (
+        <div className="pad10 mb-5" id="skills">
+          <h1 className="mb-4">Skills</h1>
+          <div className="skills">
+            <div className="html dropshadow" ref={addSkills}>
+              <FaHtml5 />
+            </div>
+            <div className="css dropshadow" ref={addSkills}>
+              <FaCss3 />
+            </div>
+            <div className="sass dropshadow" ref={addSkills}>
+              <FaSass />
+            </div>
+            <div className="bootstrap dropshadow" ref={addSkills}>
+              <FaBootstrap />
+            </div>
+            <div className="javascript dropshadow" ref={addSkills}>
+              <FaJsSquare />
+            </div>
+            <div className="react dropshadow" ref={addSkills}>
+              <FaReact />
+            </div>
+            <div className="node dropshadow" ref={addSkills}>
+              <FaNode />
+            </div>
+            <div className="express dropshadow" ref={addSkills}>
+              <SiExpress />
+            </div>
+            <div className="mongodb dropshadow" ref={addSkills}>
+              <SiMongodb />
+            </div>
+            <div className="git dropshadow" ref={addSkills}>
+              <FaGitAlt />
+            </div>
+            <div className="github dropshadow" ref={addSkills}>
+              <FaGithub />
+            </div>
+            <div className="postman dropshadow" ref={addSkills}>
+              <SiPostman />
+            </div>
+          </div>
         </div>
-        <div className="sass dropshadow" ref={addSkills}>
-          <FaSass />
-        </div>
-        <div className="bootstrap dropshadow" ref={addSkills}>
-          <FaBootstrap />
-        </div>
-        <div className="javascript dropshadow" ref={addSkills}>
-          <FaJsSquare />
-        </div>
-        <div className="react dropshadow" ref={addSkills}>
-          <FaReact />
-        </div>
-        <div className="node dropshadow" ref={addSkills}>
-          <FaNode />
-        </div>
-        <div className="express dropshadow" ref={addSkills}>
-          <SiExpress />
-        </div>
-        <div className="mongodb dropshadow" ref={addSkills}>
-          <SiMongodb />
-        </div>
-        <div className="git dropshadow" ref={addSkills}>
-          <FaGitAlt />
-        </div>
-        <div className="github dropshadow" ref={addSkills}>
-          <FaGithub />
-        </div>
-        <div className="postman dropshadow" ref={addSkills}>
-          <SiPostman />
-        </div>
-      </div>
-    </div>
+      )}
+    </>
   );
 };
 

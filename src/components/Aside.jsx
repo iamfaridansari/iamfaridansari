@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useContext, useRef } from "react";
 import {
   FaBook,
   FaBriefcase,
@@ -9,55 +9,10 @@ import {
   FaUser,
 } from "react-icons/fa";
 import gsap from "gsap";
+import { AppContext } from "../context/AppContext";
 
 const Aside = () => {
-  const [theme, setTheme] = useState(false);
-  let heading1 = document.querySelectorAll("main h1");
-  let heading2 = document.querySelectorAll("main h2");
-  let paragraph = document.querySelectorAll("main p");
-  let arrows = document.querySelectorAll(".invert");
-  let skills = document.querySelectorAll(".skills svg");
-  const toggleTheme = () => {
-    setTheme(!theme);
-  };
-  useEffect(() => {
-    if (theme) {
-      document.body.style.background = "#000";
-      heading1.forEach((item) => {
-        item.style.color = "#eee";
-      });
-      heading2.forEach((item) => {
-        item.style.color = "#eee";
-      });
-      paragraph.forEach((item) => {
-        item.style.color = "#eee";
-      });
-      arrows.forEach((item) => {
-        item.style.filter = "invert(1)";
-      });
-      skills.forEach((item) => {
-        item.style.color = "#fff";
-      });
-    } else {
-      document.body.style.background = "#eee";
-      heading1.forEach((item) => {
-        item.style.color = "#000";
-      });
-      heading2.forEach((item) => {
-        item.style.color = "#000";
-      });
-      paragraph.forEach((item) => {
-        item.style.color = "#000";
-      });
-      arrows.forEach((item) => {
-        item.style.filter = "none";
-      });
-      skills.forEach((item) => {
-        item.style.color = "#000";
-      });
-    }
-  }, [theme]);
-
+  const { theme, toggleTheme } = useContext(AppContext);
   //
   const links = useRef([]);
   links.current = [];
@@ -127,9 +82,9 @@ const Aside = () => {
           </a>
         </li>
       </ul>
-      {/* <div className="theme-toggle" onClick={toggleTheme} ref={addLinks}>
+      <div className="theme-toggle" onClick={toggleTheme} ref={addLinks}>
         {theme ? <FaSun /> : <FaMoon />}
-      </div> */}
+      </div>
     </aside>
   );
 };

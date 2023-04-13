@@ -103,6 +103,18 @@ const Introduction = () => {
       );
     });
     //
+    timeline.fromTo(
+      profilePic.current,
+      {
+        opacity: 0,
+        transform: "translateY(-50%)",
+      },
+      {
+        opacity: 1,
+        transform: "translateY(0)",
+      }
+    );
+    //
     desc.current.forEach((item) => {
       timeline.fromTo(
         item,
@@ -117,17 +129,6 @@ const Introduction = () => {
         }
       );
     });
-    gsap.fromTo(
-      profilePic.current,
-      {
-        transform: "scale(1.25)",
-        opacity: 0,
-      },
-      {
-        transform: "scale(1)",
-        opacity: 1,
-      }
-    );
   }, []);
   return (
     <>
@@ -169,8 +170,8 @@ const Introduction = () => {
             <Desciption />
           </div>
         </div>
-        <div className="profile_pic ms-auto">
-          <img src={profile_pic} ref={profilePic} alt="profile pic" />
+        <div className="profile_pic ms-auto" ref={profilePic}>
+          <img src={profile_pic} alt="profile pic" />
         </div>
       </div>
       <div className="d-md-none mt-4" ref={addDesc}>

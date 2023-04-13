@@ -42,7 +42,7 @@ const Projectcs = () => {
         {projects.map((item, index) => {
           return (
             <div
-              className="gradient-background project"
+              className="project"
               key={index}
               ref={addProjects}
             >

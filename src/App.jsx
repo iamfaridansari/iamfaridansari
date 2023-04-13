@@ -6,13 +6,16 @@ import "./assets/css/style.css";
 import "./assets/css/responsive.css";
 import Aside from "./components/Aside";
 import Main from "./components/Main";
+import { AppContextProvider } from "./context/AppContext";
 
 const App = () => {
   return (
-    <section className="body">
-      <Aside />
-      <Main />
-    </section>
+    <AppContextProvider>
+      <section className="body">
+        <Aside />
+        <Main />
+      </section>
+    </AppContextProvider>
   );
 };
 

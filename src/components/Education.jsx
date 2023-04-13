@@ -6,7 +6,7 @@ import path from "../assets/image/path.png";
 
 const Education = () => {
   return (
-    <div className="pad10" id="education">
+    <div className="pad10 mb-5" id="education">
       <h1 className="mb-4">Education</h1>
       <div className="route-grid">
         <div className="step1">
