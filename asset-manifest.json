@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/iamfaridansari/static/css/main.8db388f0.css",
-    "main.js": "/iamfaridansari/static/js/main.af468908.js",
+    "main.css": "/iamfaridansari/static/css/main.523e1f9f.css",
+    "main.js": "/iamfaridansari/static/js/main.4778658a.js",
+    "static/media/Farid Ansari resume.pdf": "/iamfaridansari/static/media/Farid Ansari resume.e3e9c1f7e67bf125cb11.pdf",
     "static/media/profile_pic.jpg": "/iamfaridansari/static/media/profile_pic.6e6e5e4ac8c22febceb9.jpg",
     "static/media/mcbird.png": "/iamfaridansari/static/media/mcbird.1caf576d455100ac4677.png",
     "static/media/Lexend.ttf": "/iamfaridansari/static/media/Lexend.a08fb5d2aaa5f5622c53.ttf",
@@ -11,11 +12,11 @@
     "static/media/st_ignatius.png": "/iamfaridansari/static/media/st_ignatius.0dd1c562e35a5a759199.png",
     "static/media/saboo_siddik.png": "/iamfaridansari/static/media/saboo_siddik.623d43be9d210fb3b940.png",
     "index.html": "/iamfaridansari/index.html",
-    "main.8db388f0.css.map": "/iamfaridansari/static/css/main.8db388f0.css.map",
-    "main.af468908.js.map": "/iamfaridansari/static/js/main.af468908.js.map"
+    "main.523e1f9f.css.map": "/iamfaridansari/static/css/main.523e1f9f.css.map",
+    "main.4778658a.js.map": "/iamfaridansari/static/js/main.4778658a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8db388f0.css",
-    "static/js/main.af468908.js"
+    "static/css/main.523e1f9f.css",
+    "static/js/main.4778658a.js"
   ]
 }
